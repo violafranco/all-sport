@@ -1,0 +1,7 @@
+.containerNavBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.5px solid #80808057;
+    padding: .8em;
+}

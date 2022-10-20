@@ -1,0 +1,22 @@
+ul{
+    display: flex;
+}
+
+li{
+    margin: 1em;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.3em;
+    transition: all 200ms ease-in;
+}
+
+a:hover{
+    color: var(--main-color);
+    text-decoration: underline var(--main-color) solid 1px;
+}

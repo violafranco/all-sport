@@ -1,11 +1,19 @@
 import './App.css';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import NavBar from './components/NavBar/NavBar';
+
 
 const App = () => {
   return ( 
     <>
-      <div className='App-header'>
-        <p><strong>All Sport </strong>in progres...</p>
-      </div>
+      <header className='header'>
+        <NavBar />
+      </header>
+      <main>
+        <section className='listContainer'>
+          <ItemListContainer greeting='Cards container'/>
+        </section>
+      </main>
     </>
    );
 }
