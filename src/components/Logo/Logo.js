@@ -1,11 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './logo.css';
 import Logotipo from './logo.PNG';
 
 const Logo = () => {
     return (
         <div>
-            <img src={Logotipo}></img>
+            <Link to='/'>
+                <img src={Logotipo} alt='logo'></img>
+            </Link>
         </div>
     );
 }

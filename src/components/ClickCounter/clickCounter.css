@@ -1,0 +1,22 @@
+.container-counter{
+    max-width: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 1em;
+}
+
+.container-counter>button{
+    background-color: var(--main-color);
+    border: none;
+    padding: 0.8em;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.input.counter{
+    padding: 0em 1em;
+    display: flex;
+    align-items: center;
+}

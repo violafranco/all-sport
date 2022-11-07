@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './menu.css';
 
 const Menu = () => {
@@ -6,16 +7,13 @@ const Menu = () => {
         <div>
             <ul>
                 <li>
-                    <a href='#'>Categorias</a>
+                    <a href='/category/zapatilla'>Zapatillas</a>
                 </li>
                 <li>
-                    <a href='#'>Hombre</a>
+                    <a href='/category/remera'>Remeras</a>
                 </li>
                 <li>
-                    <a href='#'>Mujer</a>
-                </li>
-                <li>
-                    <a href='#'>Marca</a>
+                    <a href='/category/pelota'>Pelotas</a>
                 </li>
             </ul>
         </div>

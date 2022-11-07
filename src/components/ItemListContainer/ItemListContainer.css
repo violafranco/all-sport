@@ -1,10 +1,10 @@
 .item{
-    background-color: rgb(221, 221, 221);
-    width: 90%;
-    height: 16em;
+    width: 100%;
     margin-top: 2em;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
 }

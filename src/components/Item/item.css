@@ -1,0 +1,20 @@
+.Item{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    margin: 1px;
+    max-width: 30%;
+    padding: 1em;
+}
+
+.button{
+    padding: .5em 1em;
+    background-color: var(--main-color);
+    margin-top: 1em;
+    border: none;
+    font-family: 'Staatliches', cursive;
+    cursor: pointer;
+}
+
+.product-image>img{
+    width: 40%;
+}
