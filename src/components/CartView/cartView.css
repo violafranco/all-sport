@@ -1,0 +1,23 @@
+.cart-view-container{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.cart-view-card{
+    border: 1px solid black;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem !important;
+}
+.cart-view-card img{
+    max-width: 150px;
+}
+.cart-view-card-content{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

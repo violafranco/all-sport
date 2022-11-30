@@ -1,12 +1,10 @@
 import React, {useState} from "react";
 import './clickCounter.css';
 
-function ClickCounter(props) {
+function ClickCounter({stock, onAddToCart}) {
 
     const [count, setCount] = useState(1);
-  
-    let stock = props.stock;
-  
+    
     function handleClickMore(){
       if(count < stock){      
         setCount(count + 1)
@@ -22,7 +20,7 @@ function ClickCounter(props) {
         alert('El minimo es de 1 producto')
       }    
     }
-  
+
     return(
       <>
         <div className="container-counter">
@@ -30,7 +28,7 @@ function ClickCounter(props) {
           <p className="input counter" >{count}</p>
           <button onClick={handleClickMore}>+</button>
         </div>
-        <button>Agregar al carrito</button>
+        <button onClick={() => onAddToCart(count)}>Agregar al carrito</button>
       </>
     )
 }

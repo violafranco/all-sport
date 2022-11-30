@@ -5,7 +5,7 @@
     max-width: 33%;
 }
 
-.Item>button{
+.button_carrito{
     padding: .5em 1em;
     background-color: var(--main-color);
     margin-top: 1em;

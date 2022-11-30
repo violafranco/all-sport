@@ -5,7 +5,7 @@ export default function getItems() {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(products)
-        }, 100)
+        }, 500)
     })
 }
 
@@ -23,7 +23,7 @@ export function getSingleItems(idParams) {
                 reject(new Error('El item no existe'))
             }
 
-        }, 100)
+        }, 500)
     })
 }
 
@@ -33,6 +33,6 @@ export function getItemsByCategory(categoryId) {
         setTimeout(() => {
             let itemRequested = products.filter( item => item.category === categoryId)
             resolve(itemRequested)
-        }, 100)
+        }, 500)
     })
 }
